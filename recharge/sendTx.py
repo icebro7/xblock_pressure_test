@@ -14,7 +14,7 @@ load_dotenv('key.env')
 # 配置BTT测试网
 BTT_RPC_URL = os.getenv('BTT_RPC_URL')
 PRIVATE_KEY = os.getenv('PRIVATE_KEY')
-SENDER_ADDRESS = '0x361cA2860F5Cf6F8498F69D0Ef4E31e39Dda4D3b'  # 替换为你的发送地址
+SENDER_ADDRESS = ''  # 替换为你的发送地址
 
 # 先校验环境变量是否读取成功
 if not BTT_RPC_URL:
