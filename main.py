@@ -203,8 +203,8 @@ def do_withdrawal_flow():
     def_env = {
         'wallet_id': os.getenv('WD_WALLET_ID', '118'),
         'chain_name': os.getenv('WD_CHAIN_NAME', 'BTT_TEST'),
-        'from_address': os.getenv('WD_FROM_ADDRESS', '0x1f6642e250e7e15865c54963ce65e8635c564eae'),
-        'to_address': os.getenv('WD_TO_ADDRESS', '0x361cA2860F5Cf6F8498F69D0Ef4E31e39Dda4D3b'),
+        'from_address': os.getenv('WD_FROM_ADDRESS', ''),
+        'to_address': os.getenv('WD_TO_ADDRESS', ''),
         'token_address': os.getenv('WD_TOKEN_ADDRESS', ''),
         'amount': os.getenv('WD_AMOUNT', '7'),
     }
