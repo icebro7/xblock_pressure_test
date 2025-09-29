@@ -28,11 +28,11 @@ BASE_HEADERS = {
 USE_MULTIPART = True
 
 # 账户信息（可在 key.env 覆盖：API_USERNAME 等）
-USERNAME = 'ice'
-PASSWORD = 'ezJiKDK5Z5Wn5DV8'
-CLIENT_ID = 'MEMBER'
-CLIENT_SECRET = '123456'
-GRANT_TYPE = 'password'
+USERNAME = ''
+PASSWORD = ''
+CLIENT_ID = ''
+CLIENT_SECRET = ''
+GRANT_TYPE = ''
 
 # 探测 SOCKS 支持
 try:
